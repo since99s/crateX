@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#07050b">
+  <meta name="description" content="CrateX is a modern archive manager for Windows with Download Watcher, Image Pack, password tools, extraction, encryption, conversion and more.">
+  <title>CrateX — Crack the crate.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="pointer-glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a href="#top" class="brand" aria-label="CrateX home">
+      <img src="assets/cratex-logo.png" alt="CrateX logo">
+      <span>Crate<span>X</span></span>
+    </a>
+    <nav>
+      <a href="#watcher">Why CrateX</a>
+      <a href="#tools">Features</a>
+      <a href="#terms">Terms</a>
+      <a class="download-link" href="#download">Download Setup</a>
+    </nav>
+    <button class="menu" aria-label="Open navigation" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <div class="overline"><span></span> Archive management, rebuilt</div>
+        <h1>Crack the crate.<br><em>Own every archive.</em></h1>
+        <p>Skip the repeated right-click routine. Double-click an archive and CrateX puts Open, View and Extract actions exactly where you need them.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#download">Download Setup <b>↓</b></a>
+          <a class="secondary" href="#watcher">Why CrateX feels faster</a>
+        </div>
+        <div class="platform-line"><span>Windows 10 & 11</span><span>64-bit</span><span>Local processing</span></div>
+      </div>
+
+      <div class="hero-visual reveal" data-parallax>
+        <div class="halo halo-a"></div><div class="halo halo-b"></div>
+        <div class="hero-frame">
+          <div class="frame-label"><i></i> CRATEX</div>
+          <img src="assets/quick-actions.png" alt="CrateX quick archive actions">
+        </div>
+        <div class="orbit orbit-one"><span>ZIP</span></div>
+        <div class="orbit orbit-two"><span>7Z</span></div>
+        <div class="orbit orbit-three"><span>RAR</span></div>
+        <div class="hero-callout callout-a">Open. Browse. Extract.</div>
+        <div class="hero-callout callout-b">Built for Windows</div>
+      </div>
+    </section>
+
+    <section class="value-strip" aria-label="CrateX highlights">
+      <div class="value-track">
+        <div class="value-group">
+          <span>DOUBLE-CLICK WORKFLOW</span><i>✦</i>
+          <span>DOWNLOAD WATCHER</span><i>✦</i>
+          <span>IMAGE PACK</span><i>✦</i>
+          <span>PASSWORD MANAGER</span><i>✦</i>
+          <span>ENCRYPTION</span><i>✦</i>
+          <span>SPLIT / MERGE</span><i>✦</i>
+          <span>ARCHIVE CONVERTER</span><i>✦</i>
+        </div>
+        <div class="value-group" aria-hidden="true">
+          <span>DOUBLE-CLICK WORKFLOW</span><i>✦</i>
+          <span>DOWNLOAD WATCHER</span><i>✦</i>
+          <span>IMAGE PACK</span><i>✦</i>
+          <span>PASSWORD MANAGER</span><i>✦</i>
+          <span>ENCRYPTION</span><i>✦</i>
+          <span>SPLIT / MERGE</span><i>✦</i>
+          <span>ARCHIVE CONVERTER</span><i>✦</i>
+        </div>
+      </div>
+    </section>
+
+    <section class="watcher-stage" id="watcher">
+      <div class="watcher-copy reveal">
+        <div class="spotlight-label">THE FEATURE THAT CHANGES THE WORKFLOW</div>
+        <h2>Your downloads<br><em>can react instantly.</em></h2>
+        <p>CrateX can watch your Downloads folder—or any folder you choose—and bring up archive actions as soon as a supported file arrives.</p>
+        <div class="watcher-flow">
+          <div><b>01</b><span>An archive finishes downloading</span></div>
+          <div><b>02</b><span>CrateX detects it automatically</span></div>
+          <div><b>03</b><span>Open, extract or choose a destination</span></div>
+        </div>
+        <div class="feature-pills"><span>Optional</span><span>Multiple folders</span><span>No duplicate popups</span><span>Quick actions</span></div>
+      </div>
+
+      <div class="watcher-visual reveal">
+        <div class="watcher-beam"></div>
+        <div class="download-file">
+          <div class="download-file-icon">ZIP</div>
+          <div><b>Project-Files.zip</b><span>Download complete</span></div>
+          <i>✓</i>
+        </div>
+        <div class="motion-line"></div>
+        <div class="product-window watcher-window">
+          <div class="window-head"><span><i></i> Download Watcher</span><b>CRATEX</b></div>
+          <img src="assets/watcher.png" alt="CrateX Download Watcher">
+        </div>
+        <div class="watcher-action action-one">Open / View</div>
+        <div class="watcher-action action-two">Extract Here</div>
+      </div>
+    </section>
+
+    <section class="imagepack-stage" id="image-pack">
+      <div class="imagepack-art reveal">
+        <div class="image-source image-source-jpg">
+          <img src="assets/imagepack-jpg.jpg" alt="JPG cover image">
+          <span>JPG COVER</span>
+        </div>
+        <div class="image-source image-source-png">
+          <img src="assets/imagepack-png.png" alt="PNG cover image">
+          <span>PNG COVER</span>
+        </div>
+        <div class="imagepack-plus">＋</div>
+        <div class="zip-source">
+          <img src="assets/cratex-zip-icon.png" alt="CrateX ZIP archive icon">
+          <span>ZIP ARCHIVE</span>
+        </div>
+        <div class="pack-flow flow-one"></div>
+        <div class="pack-flow flow-two"></div>
+        <div class="result-beam"></div>
+        <div class="product-window imagepack-window">
+          <div class="window-head"><span><i></i> Image Pack</span><b>CRATEX TOOLS</b></div>
+          <img src="assets/image-pack.png" alt="CrateX Image Pack tool">
+        </div>
+      </div>
+      <div class="imagepack-copy reveal">
+        <span class="feature-index">IMAGE PACK</span>
+        <h2>More than an archive.<br><em>A file with a second layer.</em></h2>
+        <p>Combine a cover image with an archive, add an optional password, scan an Image Pack and reopen the hidden content later.</p>
+        <div class="large-points">
+          <div><b>Blend</b><span>Use JPG, PNG or WebP as the visible cover.</span></div>
+          <div><b>Protect</b><span>Add an optional password before creating the pack.</span></div>
+          <div><b>Reopen</b><span>Scan the image and recover the embedded archive in CrateX.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="password-stage" id="passwords">
+      <div class="password-copy reveal">
+        <span class="feature-index">PASSWORD MANAGER</span>
+        <h2>Keep archive passwords<br><em>where the archives live.</em></h2>
+        <p>Save and organize archive passwords inside CrateX, then find the right one without keeping random notes across your desktop.</p>
+        <div class="password-notes">
+          <span>Organized entries</span>
+          <span>Fast search</span>
+          <span>Built into CrateX</span>
+        </div>
+      </div>
+
+      <div class="password-visual reveal">
+        <div class="vault-rings"></div>
+        <div class="vault-card">
+          <header><span>⌁ PASSWORD MANAGER</span><b>CRATEX</b></header>
+          <div class="vault-search">Search saved passwords… <i>⌕</i></div>
+          <div class="vault-entry active">
+            <div class="vault-icon">7Z</div>
+            <div><b>Project archive</b><span>Updated recently</span></div>
+            <em>••••••••••••</em>
+          </div>
+          <div class="vault-entry">
+            <div class="vault-icon">ZIP</div>
+            <div><b>Work archives</b><span>Saved entry</span></div>
+            <em>••••••••</em>
+          </div>
+          <div class="vault-entry">
+            <div class="vault-icon">RAR</div>
+            <div><b>Backup set</b><span>Saved entry</span></div>
+            <em>••••••••••</em>
+          </div>
+          <button type="button">＋ Add password</button>
+        </div>
+        <div class="vault-lock">⌾</div>
+      </div>
+    </section>
+
+    <section class="cinematic-feature feature-left" id="tools">
+      <div class="feature-copy reveal">
+        <span class="feature-index">ENCRYPT / LOCK</span>
+        <h2>Lock what matters.</h2>
+        <p>Create protected archive copies with a clean password workflow and two practical format choices.</p>
+        <div class="chips"><span>7Z Strong</span><span>ZIP AES</span><span>Original preserved</span></div>
+      </div>
+      <div class="screen-wrap reveal tilt">
+        <div class="screen-chrome"><i></i><i></i><i></i><span>Encrypt / Lock</span></div>
+        <img src="assets/encrypt.png" alt="CrateX encryption window">
+      </div>
+    </section>
+
+    <section class="split-scene">
+      <div class="split-copy reveal">
+        <span class="feature-index">SPLIT / MERGE</span>
+        <h2>Break it apart.<br>Build it back.</h2>
+        <p>Split large files into numbered parts with preset or custom sizes, then merge them in the correct order.</p>
+      </div>
+      <div class="split-visual reveal">
+        <div class="part p1">PART 001</div><div class="part p2">PART 002</div><div class="part p3">PART 003</div>
+        <div class="split-screen"><img src="assets/split-merge.png" alt="CrateX split and merge tool"></div>
+      </div>
+    </section>
+
+    <section class="converter-stage">
+      <div class="converter-copy reveal">
+        <span class="feature-index">ARCHIVE CONVERTER</span>
+        <h2>Change the format.<br>Keep the original.</h2>
+        <p>Drop an archive, choose the new format and let CrateX create a converted copy without the manual extract-and-rebuild process.</p>
+      </div>
+      <div class="converter-visual reveal">
+        <div class="convert-token left">RAR</div>
+        <div class="convert-arrow">→</div>
+        <div class="convert-token right">ZIP</div>
+        <div class="product-window converter-window">
+          <div class="window-head"><span><i></i> Convert Archive</span><b>CRATEX</b></div>
+          <img src="assets/converter.png" alt="CrateX archive converter">
+        </div>
+      </div>
+    </section>
+
+    <section class="formats">
+      <div class="formats-copy reveal">
+        <span class="feature-index">FORMAT SUPPORT</span>
+        <h2>The formats you use.<br>One consistent workflow.</h2>
+      </div>
+      <div class="format-orbit reveal">
+        <div class="format-center"><img src="assets/cratex-logo.png" alt="CrateX logo"></div>
+        <span style="--i:0">ZIP</span><span style="--i:1">RAR</span><span style="--i:2">7Z</span><span style="--i:3">ISO</span><span style="--i:4">TAR</span><span style="--i:5">GZ</span><span style="--i:6">RAW</span>
+      </div>
+    </section>
+
+    <section class="capability-wall">
+      <div class="capability-title reveal">
+        <span>MORE INSIDE CRATEX</span>
+        <h2>Built for the full archive workflow.</h2>
+        <p>Everyday actions stay visible, while deeper tools are ready when the job gets bigger.</p>
+      </div>
+      <div class="capability-grid">
+        <article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><circle cx="12" cy="12" r="2.5"/></svg></div>
+          <div><b>Open / View</b><p>Browse archive contents before extracting.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h5M15 15l2 2 4-4"/></svg></div>
+          <div><b>Extract Selected</b><p>Take only the files you need.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h7l2 2h7v10H4zM12 11v6M9 14h6"/></svg></div>
+          <div><b>Add / Compress</b><p>Create archives from files and folders.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 9l2 2 5-5M8 15h8"/></svg></div>
+          <div><b>Archive Test</b><p>Check integrity before using or sharing.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 12s3.5-6 9-6 9 6 9 6-3.5 6-9 6-9-6-9-6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <div><b>Quick Preview</b><p>Inspect images, text, PDFs and supported content.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h7l2 2h7v10H4zM11 12h7M15 8l4 4-4 4"/></svg></div>
+          <div><b>Open From Archive</b><p>Launch files with their Windows application.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13M10 11v5M14 11v5"/></svg></div>
+          <div><b>Archive Cleaner</b><p>Remove unnecessary content more easily.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6zM9 12l2 2 4-4"/></svg></div>
+          <div><b>Safety Check</b><p>Inspect archives before extraction.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 6h12M7 12h12M7 18h12M3 6h.01M3 12h.01M3 18h.01"/></svg></div>
+          <div><b>Queue / Tasks</b><p>Keep longer operations visible and organized.</p></div>
+        </article><article class="reveal">
+          <div class="capability-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 6h7l2 2h9v11H3zM15 11l4 4M19 11l-4 4"/></svg></div>
+          <div><b>Explorer Integration</b><p>Use CrateX from Windows right-click menus.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="workflow-bridge">
+      <div class="bridge-copy reveal">
+        <span class="feature-index">WHY CRATEX EXISTS</span>
+        <h2>Stop digging through menus.<br><em>Double-click and move.</em></h2>
+        <p>Traditional archive work repeats the same steps: right-click, find more options, choose an action, then confirm a destination. CrateX shortens that routine and puts the useful choices first.</p>
+        <div class="bridge-points">
+          <span>Fewer clicks</span>
+          <span>Immediate actions</span>
+          <span>One consistent workflow</span>
+        </div>
+      </div>
+
+      <div class="bridge-visual reveal">
+        <div class="old-flow">
+          <span class="flow-label">THE OLD WAY</span>
+          <div class="context-menu windows-menu">
+            <div class="windows-quick-row" aria-hidden="true">
+              <span>✂</span><span>⧉</span><span>▣</span><span>↗</span><span>⌫</span>
+            </div>
+            <div><span class="menu-icon">▣</span><b>Open</b></div>
+            <div><span class="menu-icon">↗</span><b>Open with</b><em>›</em></div>
+            <div><span class="menu-icon">★</span><b>Add to Favorites</b></div>
+            <div><span class="menu-icon">▱</span><b>Compress to ZIP file</b></div>
+            <div class="menu-separator"></div>
+            <div><span class="menu-icon">⌘</span><b>Copy as path</b></div>
+            <div><span class="menu-icon">ⓘ</span><b>Properties</b></div>
+            <div class="menu-separator"></div>
+            <div class="show-more"><span class="menu-icon">•••</span><b>Show more options</b><small>Shift+F10</small></div>
+          </div>
+          <div class="old-flow-strike"></div>
+        </div>
+
+        <div class="bridge-arrow" aria-hidden="true">
+          <svg viewBox="0 0 80 32"><path d="M2 16h70M59 4l13 12-13 12"/></svg>
+        </div>
+
+        <div class="new-flow">
+          <span class="flow-label">THE CRATEX WAY</span>
+          <div class="double-click">
+            <div class="mini-zip"><img src="assets/cratex-zip-icon.png" alt=""></div>
+            <span>Double-click</span>
+            <i></i><i></i>
+          </div>
+          <div class="instant-actions">
+            <b>Open / View</b>
+            <b>Extract Here</b>
+            <b>Extract To</b>
+          </div>
+        </div>
+      </div>
+
+      <div class="bridge-cta reveal">
+        <div>
+          <strong>Ready to skip the repetitive steps?</strong>
+          <span>Get the setup and make CrateX your archive workflow.</span>
+        </div>
+        <a href="#download">Download Setup <b>↓</b></a>
+      </div>
+    </section>
+
+    <section class="terms-section" id="terms">
+      <div class="terms-heading reveal">
+        <span class="feature-index">TERMS & RESPONSIBILITY</span>
+        <h2>Powerful tools.<br><em>Clear responsibility.</em></h2>
+        <p>CrateX helps you work faster, but your files, passwords and decisions remain under your control.</p>
+      </div>
+
+      <div class="responsibility-list">
+        <article class="responsibility-item reveal">
+          <div class="responsibility-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 7h16v12H4zM7 4h10v3H7zM8 12h8M8 16h5"/></svg>
+          </div>
+          <div>
+            <h3>Back up important data</h3>
+            <p>Keep a separate copy before deleting, encrypting, converting, repairing, splitting, merging or replacing important files.</p>
+          </div>
+        </article>
+        <article class="responsibility-item reveal">
+          <div class="responsibility-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3l9 16H3L12 3zM12 9v4M12 17h.01"/></svg>
+          </div>
+          <div>
+            <h3>Use CrateX at your own risk</h3>
+            <p>To the maximum extent permitted by law, CrateX and its creator are not liable for lost data, damaged files, corrupted archives, interrupted operations or resulting losses.</p>
+          </div>
+        </article>
+        <article class="responsibility-item reveal">
+          <div class="responsibility-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M7 11V8a5 5 0 0110 0v3M5 11h14v10H5zM12 15v2"/></svg>
+          </div>
+          <div>
+            <h3>You control your passwords</h3>
+            <p>Protect and remember encryption passwords. A forgotten password may make an archive impossible to recover.</p>
+          </div>
+        </article>
+        <article class="responsibility-item reveal">
+          <div class="responsibility-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3a9 9 0 109 9M3 12h18M12 3c3 3 4 6 4 9s-1 6-4 9c-3-3-4-6-4-9s1-6 4-9M16 8l5-5M17 3h4v4"/></svg>
+          </div>
+          <div>
+            <h3>Use it lawfully</h3>
+            <p>Only manage files you own or are authorized to use. Do not use CrateX for illegal, harmful, infringing or unauthorized content.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="legal-callout reveal">
+        <div>
+          <strong>Before you download</strong>
+          <p>Read the complete Terms of Use and Disclaimer for backup, password, internet-download and liability guidance.</p>
+        </div>
+        <a href="terms.html">Read full terms <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="faq-heading reveal"><span class="feature-index">QUESTIONS</span><h2>Before you download.</h2></div>
+      <div class="faq-list">
+        <details class="reveal"><summary>Why does CrateX feel faster than the usual archive workflow?</summary><p>Instead of repeatedly opening right-click menus, CrateX can present the key actions immediately when you double-click a supported archive.</p></details>
+        <details class="reveal"><summary>Does CrateX upload my archives?</summary><p>No. Core archive operations run locally on your Windows PC.</p></details>
+        <details class="reveal"><summary>Is Download Watcher required?</summary><p>No. It is optional and can be enabled or disabled whenever you choose.</p></details>
+        <details class="reveal"><summary>What should I do before modifying an important archive?</summary><p>Keep a separate backup. This is especially important before encryption, conversion, deletion, repair, split or merge operations.</p></details>
+      </div>
+    </section>
+
+    <section class="closing-band reveal">
+      <div><span>BUILT TO REMOVE REPETITION</span><h2>Less right-clicking.<br>More getting things done.</h2></div>
+      <a href="#download">Get CrateX <b>↓</b></a>
+    </section>
+
+    <section class="download" id="download">
+      <div class="download-beam"></div>
+      <img src="assets/cratex-logo.png" alt="CrateX logo" class="download-logo reveal">
+      <span class="feature-index reveal">READY TO OPEN</span>
+      <h2 class="reveal">Your archives deserve better.</h2>
+      <p class="reveal">Get the CrateX setup for Windows and keep every archive tool in one place.</p>
+      <a class="download-button reveal" href="https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/releases/latest" target="_blank" rel="noopener">Download Setup <span>↗</span></a>
+      <small>Windows 10 & 11 · 64-bit · By downloading, you agree to the <a href="terms.html">Terms of Use</a>.</small>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-main">
+      <a class="brand footer-brand" href="#top"><img src="assets/cratex-logo.png" alt=""><span>Crate<span>X</span></span></a>
+      <p>Double-click the archive. CrateX handles the rest.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#terms">Responsibility</a>
+      <a href="terms.html">Full Terms</a>
+      <a href="#download">Download Setup</a>
+    </div>
+    <div class="footer-legal">
+      <span>Windows archive management, rebuilt.</span>
+      <span>© Jason Para. All rights reserved. CrateX™</span>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
